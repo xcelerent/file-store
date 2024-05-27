@@ -4,11 +4,11 @@
 sudo apt-get update -y
 
 sudo apt-get install -y curl wget
-sudo apt install -y nano
-sudo apt install -y unzip
+sudo apt-get install -y nano
+sudo apt-get install -y unzip
 
 # nifi 1.26 require jdk 11
-sudo apt install -y openjdk-11-jdk
+sudo apt-get install -y openjdk-11-jdk
 update-alternatives --config java
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 export PATH=$JAVA_HOME/bin:$PATH
