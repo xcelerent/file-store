@@ -14,7 +14,7 @@ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 export PATH=$JAVA_HOME/bin:$PATH
 
 # Download .profile from GitHub and permanently set JAVA_HOME and PATH
-wget -O /temp/.profil https://raw.githubusercontent.com/xcelerent/file-store/main/tf-az-kw-nifi/.profile
+wget -O /temp/.profile https://raw.githubusercontent.com/xcelerent/file-store/main/tf-az-kw-nifi/.profile
 sudo cp /tmp/.profile /home/lingtao/.profile
 
 # Download latest nifi 1.2x zip
