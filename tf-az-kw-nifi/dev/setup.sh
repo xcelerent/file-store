@@ -30,6 +30,9 @@ cd downloads
 wget https://raw.githubusercontent.com/xcelerent/file-store/main/tf-az-kw-nifi/.profile
 sudo cp .profile /home/lingtao/.profile
 
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export PATH=$JAVA_HOME/bin:$PATH
+
 
 # Download nifi.properties from GitHub
 wget https://raw.githubusercontent.com/xcelerent/file-store/main/tf-az-kw-nifi/dev/nifi.properties
