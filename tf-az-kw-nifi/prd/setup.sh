@@ -1,6 +1,8 @@
 #!/bin/bash
 
+# ---------------------------------------------------------
 # Update and install necessary packages
+# ---------------------------------------------------------
 sudo apt-get update -y
 
 sudo apt-get install -y curl wget
@@ -14,6 +16,9 @@ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 export PATH=$JAVA_HOME/bin:$PATH
 
 
+# ---------------------------------------------------------
+# NiFi Installation
+# ---------------------------------------------------------
 cd /home/lingtao
 
 # Download latest nifi 1.2x zip
