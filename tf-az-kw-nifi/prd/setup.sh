@@ -4,9 +4,16 @@
 # Update and install necessary packages
 # ---------------------------------------------------------
 
-sudo apt-get update -y
+# Update the package lists
+sudo apt-get update
+
+# Upgrade all installed packages to their latest versions
 sudo apt-get upgrade -y
+
+# Perform a distribution upgrade (optional)
 sudo apt-get dist-upgrade -y
+
+# Remove unnecessary packages (optional)
 sudo apt-get autoremove -y
 
 sudo apt-get install -y curl wget
