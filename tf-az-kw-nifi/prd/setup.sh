@@ -3,7 +3,11 @@
 # ---------------------------------------------------------
 # Update and install necessary packages
 # ---------------------------------------------------------
+
 sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get dist-upgrade -y
+sudo apt-get autoremove -y
 
 sudo apt-get install -y curl wget
 sudo apt-get install -y nano
